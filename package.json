@@ -1,25 +1,24 @@
 {
   "name": "a04-nina2023",
   "version": "1.0.0",
-  "description": "database",
-  "main": "server.js",
+  "description": "database turtlepower",
+  "main": "database.js",
   "scripts": {
-    "test": "\\\"node server.js --help\\\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/comp426-2022-spring/a04-Nina2023.git"
   },
-  "author": "Nina Sehgal",
-  "license": "AGPL-3.0-or-later",
+  "author": "",
+  "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/comp426-2022-spring/a04-Nina2023/issues"
   },
   "homepage": "https://github.com/comp426-2022-spring/a04-Nina2023#readme",
-  
   "dependencies": {
-    "better-sqlite3": "^7.5.0",
+    "better-sqlite3": "^7.5.1",
     "express": "^4.17.3",
     "minimist": "^1.2.6",
     "morgan": "^1.10.0"
